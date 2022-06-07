@@ -14,9 +14,9 @@
                 $sql2 = mysqli_query($conn, "UPDATE users SET status = '{$status}' WHERE unique_id = {$row['unique_id']}");
                 if($sql2){
                     $_SESSION['unique_id'] = $row['unique_id'];
-                    echo "success";
+                    echo "Success";
                 }else{
-                    echo "Something went wrong. Please try again!";
+                    echo "Oops! Something went wrong. Please try again!";
                 }
             }else{
                 echo "Email or Password is incorrect!";
