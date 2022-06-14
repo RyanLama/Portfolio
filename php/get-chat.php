@@ -16,7 +16,7 @@
                                 <div class="details">
                                     <p>'. $row['msg'] .'</p>
                                 </div>
-                                <button id="threedotmenu"><i class="fa-solid fa-trash fa-shake" style="display: block; --fa-animation-duration: 6s; --fa-animation-iteration-count: 1;" ></i></button>
+                                <a href="#" class="deletebutton"><iclass="fa-solid fa-trash"></i></a>
                                 </div>';
                 }else{
                     $output .= '<div class="chat incoming">
@@ -28,7 +28,7 @@
                 }
             }
         }else{
-            $output .= '<div class="text">No messages are available. Once you send message they will appear here.</div>';
+            $output .= '<div class="text">No messages are available. Once you send messages they will appear here.</div>';
         }
         echo $output;
     }else{

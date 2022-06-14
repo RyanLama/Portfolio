@@ -26,7 +26,6 @@
           <p><?php echo $row['status']; ?></p>
         </div>
       </header>
-      <i class="fa-solid fa-ellipsis-vertical"></i>
       <div class="chat-box">
         </div>
       <form action="#" class="typing-area">

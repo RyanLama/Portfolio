@@ -410,11 +410,8 @@ body{
     width: 45px;
   }
 }
-#threedotmenu{
+.deletebutton{
   display: inline-block;
-  border: none;
   margin-left: 0.6rem;
-}
-#threedotmenu:hover{
-  display: inline-block;
+  color: #f7f7f7;
 }
