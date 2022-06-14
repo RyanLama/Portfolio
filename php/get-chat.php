@@ -16,6 +16,7 @@
                                 <div class="details">
                                     <p>'. $row['msg'] .'</p>
                                 </div>
+                                <button id="threedotmenu"><i class="fa-solid fa-trash fa-shake" style="display: block; --fa-animation-duration: 6s; --fa-animation-iteration-count: 1;" ></i></button>
                                 </div>';
                 }else{
                     $output .= '<div class="chat incoming">

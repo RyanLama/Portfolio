@@ -26,7 +26,6 @@
           <p><?php echo $row['status']; ?></p>
         </div>
       </header>
-      <span class="bi bi-three-dots-vertical"></span>
       <i class="fa-solid fa-ellipsis-vertical"></i>
       <div class="chat-box">
         </div>

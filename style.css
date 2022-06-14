@@ -410,3 +410,11 @@ body{
     width: 45px;
   }
 }
+#threedotmenu{
+  display: inline-block;
+  border: none;
+  margin-left: 0.6rem;
+}
+#threedotmenu:hover{
+  display: inline-block;
+}
