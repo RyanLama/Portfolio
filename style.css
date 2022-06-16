@@ -412,6 +412,5 @@ body{
 }
 .deletebutton{
   display: inline-block;
-  margin-left: 0.6rem;
-  color: #f7f7f7;
+  color: #070707;
 }
