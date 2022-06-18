@@ -412,8 +412,13 @@ body{
 }
 .deletebutton{
   display: inline-block;
-  color: #070707;
-  border: none;
-  margin-left: 0.8rem;
-  height: 10px;
+  opacity: 0;
+  color: #bb2020;
+  border: none; 
+  background-color: #f7f7f7;
+  margin-left: 0.6rem;
+  margin-right: 0;
+}
+.deletebutton:hover {
+  opacity: 1;
 }
