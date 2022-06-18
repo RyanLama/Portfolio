@@ -16,7 +16,7 @@
                                 <div class="details">
                                     <p>'. $row['msg'] .'</p>
                                 </div>
-                                <button type="button" class="deletebutton"><i class="fa-solid fa-trash"></i></button>
+<button onclick="myFuncton" class="deletebutton"><i class="fa-solid fa-trash"></i></button>
                                 </div>';
                 }else{
                     $output .= '<div class="chat incoming">
@@ -35,4 +35,4 @@
         header("location: ../login.php");
     }
 
-?>
+    ?>
