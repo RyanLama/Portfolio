@@ -16,7 +16,7 @@
                                 <div class="details">
                                     <p>'. $row['msg'] .'</p>
                                 </div>
-                                <a class="deletechat"><i class="fa-solid fa-trash"></i></a>
+                                <button type="button" class="deletebutton"><i class="fa-solid fa-trash" ></i></button>
                                 </div>';
                 }else{
                     $output .= '<div class="chat incoming">
@@ -34,6 +34,5 @@
     }else{
         header("location: ../login.php");
     }
-
+    
     ?>
-    <script src="chat.js">

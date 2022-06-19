@@ -7,4 +7,6 @@
   <title>Realtime Chat App</title>
   <link rel="stylesheet" href="style.css">
   <script src="https://kit.fontawesome.com/e8b54f58bf.js" crossorigin="anonymous"></script>
+
+
 </head>
