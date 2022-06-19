@@ -16,7 +16,7 @@
                                 <div class="details">
                                     <p>'. $row['msg'] .'</p>
                                 </div>
-<button onclick="myFuncton" class="deletebutton"><i class="fa-solid fa-trash"></i></button>
+                                <a class="deletechat"><i class="fa-solid fa-trash"></i></a>
                                 </div>';
                 }else{
                     $output .= '<div class="chat incoming">
@@ -36,3 +36,4 @@
     }
 
     ?>
+    <script src="chat.js">
