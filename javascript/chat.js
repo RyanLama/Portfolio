@@ -61,6 +61,7 @@ function scrollToBottom(){
     chatBox.scrollTop = chatBox.scrollHeight;
   }
   function deleteChat(){
-    confirm("Are you sure you want to delete this message?");
+    const del = confirm("Are you sure you want to delete this message?");
+    location.href = 'php/delete-chat.php';
     
 }
