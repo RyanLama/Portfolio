@@ -16,7 +16,7 @@
                                 <div class="details">
                                     <p>'. $row['msg'] .'</p>
                                 </div>
-                                <button type="button" class="deletebutton"><i class="fa-solid fa-trash" ></i></button>
+                                <button type="button" onclick="deleteChat()" class="deletebutton"><i class="fa-solid fa-trash" ></i></button>
                                 </div>';
                 }else{
                     $output .= '<div class="chat incoming">
