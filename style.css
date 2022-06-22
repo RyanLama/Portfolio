@@ -413,12 +413,14 @@ body{
 .deletebutton{
   display: inline-block;
   opacity: 0;
-  color: #838181;
+  color: #ee1818;
   border: none; 
   background-color: #f7f7f7;
   margin-left: 0.6rem;
   margin-right: 0;
+  cursor: pointer;
 }
 .deletebutton:hover {
   opacity: 1;
+
 }

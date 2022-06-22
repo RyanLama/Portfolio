@@ -31,6 +31,7 @@
       <form action="#" class="typing-area">
         <input type="text" class="incoming_id" name="incoming_id" value="<?php echo $user_id; ?>" hidden>
         <input type="text" name="message" class="input-field" placeholder="Type a message here..." autocomplete="off">
+        <a href="php/delete-chat.php" onclick="deleteChat()" class="deletebutton"><i class="fa fa-trash" ></i></a>
         <button><i class="fas fa-angle-right"></i></button>
       </form>
     </section>
