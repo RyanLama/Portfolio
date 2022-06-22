@@ -15,7 +15,8 @@
                     $output .= '<div class="chat outgoing">
                                 <div class="details">
                                     <p>'. $row['msg'] .'</p>
-                                </div>
+                                    </div>
+                                    <a href="php/delete-chat.php" class="deletebutton"><i class="fa fa-trash" ></i></a>
                                 </div>';
                 }else{
                     $output .= '<div class="chat incoming">
