@@ -1,22 +1,12 @@
 <?php
     include_once"config.php";
 
-    if (isset($_POST["msg_id"]) && !empty($_POST["msg_id"])) {
-        $msg = $_POST["msg_id"];
-    
-        $query = "DELETE FROM messages WHERE msg_id = '$msg'";
-    
-        mysqli_close($conn);
-    } else {
-            echo "Something went wrong. Please try again later.";
-            exit();
-    }
-    ?>
+        $sql = "SELECT * FROM `messages`";
+        
+        $result = mysqli_query($conn, $sql);
 
-    
+        $num = mysqli_num_rows($result);
 
+        $row = mysqli_fetch_assoc($result);
 
-
-
-
-?>
+        ?>

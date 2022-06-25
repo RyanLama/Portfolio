@@ -60,7 +60,3 @@ setInterval(() =>{
 function scrollToBottom(){
     chatBox.scrollTop = chatBox.scrollHeight;
   }
-  function deleteChat(){
-    const del = confirm("Are you sure you want to delete this message?");
-    
-}

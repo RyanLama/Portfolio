@@ -16,7 +16,7 @@
                                 <div class="details">
                                     <p>'. $row['msg'] .'</p>
                                     </div>
-                                    <a href="php/delete-chat.php" class="deletebutton"><i class="fa fa-trash" ></i></a>
+                                    <a href="delete-chat.php?id=$result[outgoing_msg_id]" class="deletebutton"><i class="fa fa-trash" ></i></a>
                                 </div>';
                 }else{
                     $output .= '<div class="chat incoming">
@@ -33,6 +33,5 @@
         echo $output;
     }else{
         header("location: ../login.php");
-    }
-    
+    }    
     ?>
