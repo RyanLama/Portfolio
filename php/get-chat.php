@@ -16,7 +16,8 @@
                                 <div class="details">
                                     <p>'. $row['msg'] .'</p>
                                     </div>
-                                    <a href="delete-chat.php?id=$result[outgoing_msg_id]" class="deletebutton"><i class="fa fa-trash" ></i></a>
+                                    <input type="hidden" name="msg_id" value="<?php echo $msg_id; ?>"/>
+                                    <a href="php/delete-chat.php" class="deletebutton"><i class="fa fa-trash" ></i></a>
                                 </div>';
                 }else{
                     $output .= '<div class="chat incoming">
